@@ -29,7 +29,7 @@ const[isValid, setIsValid]=useState(true);
          type="text" onChange={goalInputChangeHandler} />
       </div>
       <div className={`form-control ${!isValid? 'inValid':''}`}>
-      <Button  type="submit">Add Goal</Button>
+      <Button type="submit">Add Goal</Button>
       </div>
     </form>
   );
